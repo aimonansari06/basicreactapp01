@@ -1,4 +1,3 @@
-
 import './App.css';
 import Hello from './hello';
 function App({name,age}) {
