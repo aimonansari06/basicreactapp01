@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (<div>Hello world</div>
+import Hello from './hello';
+function App({name,age}) {
+return (<div>Hello world from  app.js {name}
+Age = {age + 2} <Hello fname={name} ></Hello>
+</div>
+ )
 }
 
 export default App;
